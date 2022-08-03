@@ -1,0 +1,17 @@
+.card {
+    display: flex;
+    height: 170px;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+.card:hover {
+  background-color: #f2f9f8;
+}
+.card > .MuiSvgIcon-root {
+    color: #258dac;
+}
+.card__info {
+    flex: 0.7;
+}

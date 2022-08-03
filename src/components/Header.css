@@ -1,0 +1,49 @@
+.header {
+    height: 73vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header__container {
+    height: 440px;
+    width: 860px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header__container h1 {
+    font-size: 76px;
+    text-align: center;
+}
+.header__container span {
+    color: grey;
+    font-weight: 500;
+    font-size: 13px;
+}
+.header__container p {
+    color: grey;
+    font-weight: 500;
+    font-size: 14px;
+    width: 400px;
+    text-align: center;
+}
+.header__container input {
+    border: none;
+    padding: 1rem 2.6rem;
+    outline-width: 0;
+}
+.header__container button {
+    border: none;
+    padding: 1rem 2.6rem;
+    cursor: pointer;
+    background-color: #e0490d;
+    color: #fff;
+}
+.header__container-inputs {
+    display: flex;
+    gap: 0.5rem;
+}
